@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 15rem);
+}
+
+button {
+    border: 1px solid white;
+    margin: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+    width: fit-content;
+    padding: 10px;
+    background: white;
+  }
+
+  button:hover {
+      background: none;
+  }
+  
+  .box {
+      padding: 15px;
+  }
+  
+  .box-first {
+      background: hsl(31, 77%, 52%);
+  }
+  
+  .box-one {
+      background: hsl(184, 100%, 22%);
+  }
+  
+  .box-two {
+      background: hsl(179, 100%, 13%);
+  }
+  
